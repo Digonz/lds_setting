@@ -1,0 +1,54 @@
+body {
+    background-color: #212529 !important;
+    color: white !important;
+}
+
+h2 {
+    color: white !important;
+}
+.main {
+    height: 80vh;
+}
+
+.block {
+    background-color: #191919;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.block-resumen {
+    background-color: #191919;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.input-conf {
+    text-decoration: none !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid white !important;
+    color: white !important;
+    border-radius: 0px !important;
+}
+input:focus, select:focus, select, input.form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+    color: rgb(220, 220, 220) !important;
+}
+
+.form-floating>.form-control-plaintext~label::after, .form-floating>.form-control:focus~label::after, .form-floating>.form-control:not(:placeholder-shown)~label::after, .form-floating>.form-select~label::after{
+    background-color: transparent !important;
+    color: rgb(231, 231, 231) !important;
+}
