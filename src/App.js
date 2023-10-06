@@ -16,7 +16,7 @@ function App() {
       <div className="App">
         <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Finance />} />
+          <Route path="/lds_setting" element={<Finance />} />
           <Route path="/finanzas" element={<Finance />} />
         </Routes>
       </BrowserRouter>
