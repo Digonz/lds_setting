@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lds_setting/static/css/main.5e919355.css",
-    "main.js": "/lds_setting/static/js/main.31c9c3a4.js",
+    "main.css": "/lds_setting/static/css/main.7d452262.css",
+    "main.js": "/lds_setting/static/js/main.bb30a8f6.js",
     "static/js/787.fdf2e0e5.chunk.js": "/lds_setting/static/js/787.fdf2e0e5.chunk.js",
     "index.html": "/lds_setting/index.html",
-    "main.5e919355.css.map": "/lds_setting/static/css/main.5e919355.css.map",
-    "main.31c9c3a4.js.map": "/lds_setting/static/js/main.31c9c3a4.js.map",
+    "main.7d452262.css.map": "/lds_setting/static/css/main.7d452262.css.map",
+    "main.bb30a8f6.js.map": "/lds_setting/static/js/main.bb30a8f6.js.map",
     "787.fdf2e0e5.chunk.js.map": "/lds_setting/static/js/787.fdf2e0e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e919355.css",
-    "static/js/main.31c9c3a4.js"
+    "static/css/main.7d452262.css",
+    "static/js/main.bb30a8f6.js"
   ]
 }
