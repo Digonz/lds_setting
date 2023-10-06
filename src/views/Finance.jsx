@@ -82,7 +82,7 @@ const Finance = () => {
         </div>
         {!resumen ? (
           <div className="container d-flex align-items-center main">
-            <div className="mx-auto col-11 col-md-9 col-lg-8 p-5 block">
+            <div className="mx-auto col-12 col-md-9 col-lg-8 p-3 block">
               {cargando ? (
                 <h1>... cargando</h1>
               ) : (
@@ -133,13 +133,13 @@ const Finance = () => {
           </div>
         ) : (
           <div className="container d-flex align-items-center main">
-            <div className="mx-auto col-11 col-md-9 col-lg-8 p-5 block-resumen">
+            <div className="mx-auto col-12 col-md-9 col-lg-8 p-3 block-resumen">
               {cargando ? (
                 <h1>... cargando</h1>
               ) : (
                 <>
-                  <h2 className="text-center">Resumen</h2>
-                  <table className="container text-center col-6">
+                  <h2 className="text-center mb-5">Resumen</h2>
+                  <table className="container text-center col-12 col-md-6">
                     <tbody>
                         {json.map((item, index) => {
                             return (
@@ -151,7 +151,7 @@ const Finance = () => {
                             </>
                         );
                         })}
-                        <tr>
+                        <tr className="border-top">
                             <td className="text-start pt-3"><h3>TOTAL</h3></td>
                             <td className="text-end pt-3"><h3>${totalValor}</h3></td>
                         </tr>

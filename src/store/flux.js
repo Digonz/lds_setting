@@ -88,7 +88,7 @@ const getState = ({ getStore, getActions, setStore }) => {
                         },
                         {
                             id: 500,
-                            titulo: 'Cantidad de Monedas de 500 pesos',
+                            titulo: 'Cantidad de Monedas de 500',
                             btnBack: 'Atrás',
                             btnNext: 'Siguiente',
                             cantidad: '',
@@ -97,7 +97,7 @@ const getState = ({ getStore, getActions, setStore }) => {
                         },
                         {
                             id: 100,
-                            titulo: 'Cantidad de Monedas de 100 pesos',
+                            titulo: 'Cantidad de Monedas de 100',
                             btnBack: 'Atrás',
                             btnNext: 'Siguiente',
                             cantidad: '',
@@ -106,7 +106,7 @@ const getState = ({ getStore, getActions, setStore }) => {
                         },
                         {
                             id: 50,
-                            titulo: 'Cantidad de Monedas de 50 pesos',
+                            titulo: 'Cantidad de Monedas de 50',
                             btnBack: 'Atrás',
                             btnNext: 'Siguiente',
                             cantidad: '',
@@ -115,7 +115,7 @@ const getState = ({ getStore, getActions, setStore }) => {
                         },
                         {
                             id: 10,
-                            titulo: 'Cantidad de Monedas de 10 pesos',
+                            titulo: 'Cantidad de Monedas de 10',
                             btnBack: 'Atrás',
                             btnNext: 'Finalizar',
                             cantidad: '',

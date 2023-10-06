@@ -13,13 +13,11 @@ h2 {
 .block {
     background-color: #191919;
     border-radius: 10px;
-    height: 400px;
 }
 
 .block-resumen {
     background-color: #191919;
     border-radius: 10px;
-    height: 500px;
 }
 
 .input-conf {
